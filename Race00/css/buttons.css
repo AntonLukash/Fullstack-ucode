@@ -1,0 +1,82 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.extra-buttons {
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.extra-buttons.show {
+    display: grid;
+}
+
+.btn {
+    background-color: #555;
+    border: 1px solid #666;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #666;
+}
+
+#equals {
+    grid-column: span 4;
+    background-color: #0a74da;
+}
+
+#openMenu {
+    grid-column: span 4;
+    background-color: #555;
+}
+
+#convertNumeralSystem {
+    grid-column: span 2;
+    background-color: #555;
+}
+
+.btn.zero {
+    grid-column: span 3;
+    background-color: #555;
+}
+
+.btn.zero:hover {
+    background-color: #666;
+}
+
+#openMenu:hover {
+    background-color: #666;
+}
+
+#equals:hover {
+    background-color: #005bb5;
+}
+
+#factorial, #exponent, #sqrt, #memRecall, #memClear, #memPlus, #memMinus, #convertLength, #convertWeight, #convertArea, #convertNumeralSystem {
+    background-color: #777;
+}
+
+#factorial:hover, #exponent:hover, #sqrt:hover, #memRecall:hover, #memClear:hover, #memPlus:hover, #memMinus:hover, #convertLength:hover, #convertWeight:hover, #convertArea:hover, #convertNumeralSystem:hover {
+    background-color: #888;
+}
+
+.btn.clear {
+    position: absolute;
+    border-radius: 5px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #555;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.btn.clear:hover {
+    background-color: #888;
+}
+
