@@ -1,0 +1,17 @@
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+    animation: shake 2s ease-out alternate infinite;
+    transition-property: background-color;
+}
+.circle:hover {
+    background-color: red;
+}
+@keyframes shake {
+    100% {
+        transform: translateX(calc(100vw - 150px));
+    }
+}
+

@@ -1,0 +1,63 @@
+.cards {
+  font-family: Verdana, serif;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+img {
+  height: 182px;
+  position: absolute;
+}
+.text_name {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 9px;
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
+}
+.card {
+  position: relative;
+  width: 270px;
+  height: 140px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.names {
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
+  font-size: 12px;
+}
+
+#captain_america_img {
+  margin-top: -32px;
+}
+#captain_america {
+  background: linear-gradient(#4568dc, #b06ab3);
+}
+
+#iron_man_img {
+  margin-top: -32px;
+}
+#iron_man {
+  background: linear-gradient(#e52d27, #b31217);
+}
+
+#black_widow_img {
+  margin-top: -32px;
+}
+#black_widow {
+  background: linear-gradient(90deg, #000, #61045f);
+}
+#spider_man_img {
+  margin-top: -10px;
+}
+
+#spider_man {
+  background: linear-gradient(#e52d27, #000);
+}
+

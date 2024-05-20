@@ -1,0 +1,318 @@
+.img1 {
+  display: flex;
+  background-image: url(assets/images/asus.jpg);
+  width: 500px;
+  height: 250px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.img2 {
+  display: flex;
+  background-image: url(assets/images/msi.jpg);
+  width: 500px;
+  height: 250px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+h1 {
+  margin-left: 20px;
+  font-size: 40px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.catalog-title {
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.telephone {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+main {
+  display: flex;
+}
+
+#filters {
+  width: 300px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+#filters h2 {
+  margin-top: 0;
+}
+
+#filters ul {
+  list-style: none;
+  padding: 0;
+}
+
+#filters li {
+  margin-bottom: 10px;
+}
+
+#filters input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#filters input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#filters label {
+  display: inline-block;
+  width: 50px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+#price-value {
+  display: inline-block;
+  width: 30px;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: calc(50% - 40px);
+  margin: 20px;
+}
+
+.product-wrapper {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.price {
+  color: #009688;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.availability {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.availability_no {
+  color: red;
+  font-weight: bold;
+}
+
+.properties {
+  list-style-type: none;
+  padding: 0;
+}
+
+.properties li {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+header nav ul {
+  margin-left: 20px;
+}
+.pagination {
+  position: fixed;
+  bottom: 0;
+  background-color: #333;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.comments {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.comments h2 {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .search-bar input[type="text"] {
+    width: 70%;
+  }
+
+  .search-bar button {
+    width: 25%;
+  }
+
+  #filters {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+
+  #products .product {
+    width: calc(100% - 40px);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    font-size: 24px;
+  }
+
+  .catalog-title {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .search-bar {
+    margin-left: auto;
+  }
+
+  .telephone {
+    margin-left: 0;
+  }
+
+  #filters {
+    width: 300px;
+    border-right: 1px solid #ccc;
+  }
+
+  #products .product {
+    width: calc(50% - 40px);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    font-size: 30px;
+  }
+
+  .catalog-title {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .search-bar {
+    margin-left: auto;
+  }
+
+  .telephone {
+    margin-left: 0;
+  }
+
+  #filters {
+    width: 300px;
+    border-right: 1px solid #ccc;
+  }
+
+  #products .product {
+    width: calc(33.33% - 40px);
+  }
+}
+
+#price-value {
+  display: inline-block;
+  width: 30px;
+}
+
+#filters span {
+  display: inline-block;
+  margin-left: 80px;
+}
+

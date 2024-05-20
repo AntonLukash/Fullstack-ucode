@@ -1,0 +1,13 @@
+.person {
+    height: 100px;
+}
+.infinity_gauntlet_img {
+    height: 300px;
+}
+.infinity_gauntlet:hover ~.row_person_second > img:nth-child(even){
+    visibility: hidden;
+}
+.infinity_gauntlet:hover ~.row_person_first > img:nth-child(odd){
+    visibility: hidden;
+}
+

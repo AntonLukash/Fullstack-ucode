@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+.flex_container{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    height: 30px;
+    flex-grow: 1;
+    text-align: left;
+    color: green;
+    
+}
+button{
+    color: green;
+    text-align: center;
+}
+input:hover{
+    color: red;
+}
+button:hover{
+    color: red;
+}
+

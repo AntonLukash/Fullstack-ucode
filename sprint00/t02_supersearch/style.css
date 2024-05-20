@@ -1,0 +1,24 @@
+#search_form{
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+}
+
+#button_find {
+    color: green;
+}
+
+#button_find:hover {
+    color: red;
+}
+
+#entry_search {
+    width: 100%;   
+    padding-left: 10px;
+    color: green;
+}
+
+#entry_search:hover {
+    color: red;
+}
+

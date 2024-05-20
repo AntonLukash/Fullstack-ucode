@@ -1,0 +1,44 @@
+.block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #ff6384;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+}
+
+.block:nth-child(2) {
+    background-color: #36a2eb;
+    left: 4%;
+    top:7%;
+}
+
+.block:nth-child(3) {
+    background-color: #ffce56;
+    left: 7%;
+    top:4%;
+}
+
+.block:nth-child(4) {
+    background-color: #4bc0c0;
+    left: 14%;
+    top:8%;
+}
+
+.block:nth-child(5) {
+    background-color: #9966ff;
+    left: 8%;
+    top:14%;
+}
+
+.block:nth-child(6) {
+    background-color: #ff9f40;
+    left: 10%;
+    top:20%;
+}
+
+.dragging {
+    pointer-events: none;
+    border: 5px solid black;
+}
+

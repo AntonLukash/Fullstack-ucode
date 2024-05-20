@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    
+    margin-top: 50px;
+}
+
+h1 span {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: block;
+    padding: 5px 0;
+    
+}
+
+ul.drop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+ul.drop li {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+ul.drop li a {
+    display: block;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul.drop li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 200px;
+}
+
+ul.drop li a {
+    display: block;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(101, 104, 110);
+}
+
+ul.drop > li:hover > ul {
+    display: block;
+}
+
+ul.drop > li > ul > li:hover > ul {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f9f9f9;
+    min-width: 200px;
+}
+
+ul.drop li ul li {
+    display: block;
+    
+}
+
+ul.drop li ul li a {
+    padding: 10px 20px;
+    
+}
+ul li:hover>a {
+    background-color: #b4b6fb;
+    
+}
+div {
+    text-align: center;
+}
+
+div button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+div button:hover + ul.drop {
+    display: block;
+}
+

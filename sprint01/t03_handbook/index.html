@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HANDBOOK</h1>
+    <nav id="contents">
+        <h2>Contents</h2>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <ul>
+                <li><a href="#intr_html">Introduction to HTML</a></li>
+                <li><a href="#tags_html">HTML Tags</a></li>
+                <li><a href="#attrb_html">HTML Attributes</a></li>
+                <li><a href="#forms_html">HTML Forms</a></li>
+            </ul>
+            <li><a href="#css">CSS</a></li>
+            <ul>
+                <li><a href="#selectors_css">CSS Selectors</a></li>
+                <li><a href="#box_css">CSS Box Model</a></li>
+                <li><a href="#flexbox_css">CSS Flexbox</a></li>
+                <li><a href="#grid_css">CSS Grid</a></li>
+            </ul>
+            <li><a href="#protocols">Protocols</a></li>
+            <ul>
+                <li><a href="#http">HTTP/HTTPS</a></li>
+                <li><a href="#dns">DNS</a></li>
+                <li><a href="#ip">IP</a></li>
+                <li><a href="#ftp">FTP</a></li>
+            </ul>
+        </ul>
+    </nav>
+
+<h2 id="html">HTML</h2>
+<div class="wrapper">
+    <div class="intr_html" id="intr_html">
+        <h3>Introduction to HTML</h3>
+        <p>HTML, which stands for HyperText Markup Language, is the standard markup language for creating web pages and web applications.</p>
+        <code>&lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;My First HTML Page&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Hello, World!&lt;/h1&gt;
+            &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;</code>
+        <div class="view-example">
+            <h4>View Example</h4>
+                <h1>Hello, World!</h1>
+                <p>This is my first HTML page.</p>
+        </div>
+    </div>
+    <div class="tags_html" id="tags_html">
+        <h3>HTML Tags</h3>
+        <p>HTML tags are the building blocks of an HTML document. They define the structure and content of different elements on a web page.</p>
+        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;
+        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+        &lt;img src="image.jpg" alt="Image"&gt;</code>
+        <div class="view-example">
+            <h4>View Example</h4>
+            <h1>Heading 1</h1>
+            <p>This is a paragraph.</p>
+            <img src="image.jpg" alt="Image">
+        </div>
+    </div>
+    <div class="attrb_html" id="attrb_html">
+        <h3>HTML Attributes</h3>
+        <p>HTML attributes provide additional information about HTML elements. They are placed within the start tag of an element and are used to modify the element's behavior or provide metadata.</p>
+        <code>&lt;img src="image.jpg" alt="Image"&gt;
+        &lt;a href="https://example.com"&gt;Link&lt;/a&gt;</code>
+        <div class="view-example">
+            <h4>View Example</h4>
+            <img src="image.jpg" alt="Image">
+            <a href="https://example.com">Link</a>
+        </div>
+    </div>
+    <div class="forms_html" id="forms_html">
+        <h3>HTML Forms</h3>
+        <p>HTML forms are used to collect user input. They allow users to enter data that can be submitted to a server for processing.</p>
+        <code>&lt;form action="/submit" method="post"&gt;
+        &lt;input type="text" name="username"&gt;
+        &lt;input type="password" name="password"&gt;
+        &lt;button type="submit"&gt;Submit&lt;/button&gt;
+        &lt;/form&gt;</code>
+        <div class="view-example">
+            <h4>View Example</h4>
+            <form action="/submit" method="post">
+                <input type="text" name="username">
+                <input type="password" name="password">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<h2 id="css">CSS</h2>
+
+<div class="wrapper">
+    <div class="selectors_css" id="selectors_css">
+        <h3>CSS Selectors</h3>
+        <p>CSS selectors are patterns used to select and style HTML elements. They can be used to target elements based on their tag name, class, id, or other attributes.</p>
+        <code>h1 {
+    color: blue;
+}
+
+.container {
+    width: 100%;
+}
+</code>
+        <div class="view-example">
+            <h4>View Example</h4>
+            <h1>Hello, World!</h1>
+            <div class="container">This is a container.</div>
+        </div>
+    </div>
+    <div class="box_css" id="box_css">
+        <h3>CSS Box Model</h3>
+        <p>The CSS box model describes the structure of every HTML element on a web page. It consists of content, padding, border, and margin.</p>
+        <code>.box {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+</code>
+        <div class="view-example">
+            <h4>View Example</h4>
+            <div class="box">Box</div>
+        </div>
+    </div>
+    <div class="flexbox_css" id="flexbox_css">
+        <h3>CSS Flexbox</h3>
+        <p>CSS Flexbox is a layout model that allows you to create flexible and efficient layouts. It enables you to align and distribute space among items in a container.</p>
+        <code>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}</code>
+        <div class="view-example">
+            <h4>View Example</h4>
+            <div class="container">
+                <div>Item 1</div>
+                <div>Item 2</div>
+                <div>Item 3</div>
+            </div>
+        </div>
+    </div>
+    <div class="grid_css" id="grid_css">
+        <h3>CSS Grid</h3>
+        <p>CSS Grid Layout is a two-dimensional layout system for the web. It allows you to create complex grid-based layouts with rows and columns.</p>
+        <code>.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}</code>
+        <div class="view-example">
+            <h4>View Example</h4>
+            <div class="container">
+                <div>Item 1</div>
+                <div>Item 2</div>
+                <div>Item 3</div>
+                <div>Item 4</div>
+                <div>Item 5</div>
+                <div>Item 6</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 id="protocols">PROTOCOLS</h2>
+
+<div class="wrapper">
+    <div class="http" id="http">
+        <h3>HTTP/HTTPS</h3>
+        <p>HTTP (Hypertext Transfer Protocol) and HTTPS (HTTP Secure) are protocols used for transmitting data over the internet. HTTP is used for unencrypted communication, while HTTPS encrypts the data to provide a secure connection.</p>
+        <p>HTTP methods include GET, POST, PUT, DELETE, and more. Response status codes range from 1xx to 5xx, indicating different types of responses such as informational, success, redirection, client error, and server error.</p>
+    </div>
+    <div class="dns" id="dns">
+        <h3>DNS</h3>
+        <p>The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the internet or a private network. It translates domain names, such as example.com, into IP addresses, allowing browsers to locate resources on the internet.</p>
+        <p>DNS records include various types such as A, AAAA, CNAME, MX, TXT, and more, each serving different purposes like mapping domain names to IP addresses, defining mail servers, and verifying domain ownership.</p>
+    </div>
+    <div class="ip" id="ip">
+        <h3>IP</h3>
+        <p>IP (Internet Protocol) is the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. It provides an identification and location system for computers on networks and routes traffic across the internet.</p>
+        <p>To determine the IP address of a domain name, you can use various methods such as using the command line tool "nslookup" or "ping" on Windows, or "dig" or "host" on Unix-like systems. For example, to find the IP address of google.com, you can use the command "nslookup google.com" or "ping google.com".</p>
+    </div>
+    <div class="ftp" id="ftp">
+        <h3>FTP</h3>
+        <p>FTP (File Transfer Protocol) is a standard network protocol used for the transfer of computer files between a client and server on a computer network. It is commonly used to transfer website files from a local computer to a web server for hosting.</p>
+        <p>FTP operates on two ports: 21 for sending commands and 20 for sending data. It supports various commands such as LIST, RETR, STOR, and more for navigating directories, downloading, and uploading files.</p>
+    </div>
+</div>
+
+</body>
+</html>
+

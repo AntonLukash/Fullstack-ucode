@@ -1,0 +1,55 @@
+#table {
+    background-color: black;
+    color: white;
+}
+
+img {
+  border-radius: 20px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid #dddddd;
+  padding: 10px;
+}
+
+#soul_stone {
+  background-color: #cc943b;
+  height: 120px;
+  width: 120px;
+}
+
+#time_stone {
+  background-color: #098809;
+  height: 120px;
+  width: 120px;
+}
+
+#space_stone {
+  background-color: #005691;
+  height: 120px;
+  width: 120px;
+}
+
+#mind_stone {
+  background-color: #fdfd05;
+  height: 120px;
+  width: 120px;
+}
+
+#reality_stone {
+  background-color: #bf2a2e;
+  height: 120px;
+  width: 120px;
+}
+
+#power_stone {
+  background-color: #8074b6;
+  height: 120px;
+  width: 120px;
+}
+

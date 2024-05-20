@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Card Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Video Card Store</div>
+        <div class="catalog-title">Videocard catalog</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>FIND</button>
+        </div>
+        <div class="telephone">Phone: +380123456789</div>
+        <nav>
+            <ul>
+                <li><a href="#">Main</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="filters">
+            <h2>Search criteria</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="availability">
+                    <label for="availability">Available</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="asus">
+                    <label for="asus">Asus</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="msi">
+                    <label for="msi">Msi</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="gigabyte">
+                    <label for="gigabyte">Gigabyte</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="palit">
+                    <label for="palit">Palit</label>
+                </li>
+            </ul>
+            <h2>Price</h2>
+            <input type="range" id="price" name="price" min="0" max="1000">
+            <span id="price-value">0</span>
+            <span>20000</span>
+        </section>
+        <section id="products">
+            <div class="product">
+                <div class="product-wrapper">
+                    <div class="img1"></div>
+                    <h2>Asus GeForce RTX 3060</h2>
+                    <p class="price">$399.99</p>
+                    <p class="availability_no">Not available</p>
+                    <button>BUY</button>
+                    <ul class="properties">
+                        <li>Model: RTX 3060</li>
+                        <li>Core frequency: 1800 МГц</li>
+                        <li>Memory: 12 ГБ GDDR6</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-wrapper">
+                    <div class="img2"></div>
+                    <h2>Msi GeForce RTX 3060</h2>
+                    <p class="price">$399.99</p>
+                    <p class="availability">Available</p>
+                    <a href="card.html"><button>BUY</button></a>
+                    <ul class="properties">
+                        <li>Model: RTX 3060</li>
+                        <li>Core frequency: 1800 МГц</li>
+                        <li>Memory: 12 ГБ GDDR6</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-wrapper">
+                    <div class="img1"></div>
+                    <h2>NVIDIA GeForce RTX 3060</h2>
+                    <p class="price">$399.99</p>
+                    <p class="availability_no">Not available</p>
+                    <button>BUY</button>
+                    <ul class="properties">
+                        <li>Model: RTX 3060</li>
+                        <li>Core frequency: 1800 МГц</li>
+                        <li>Memory: 12 ГБ GDDR6</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-wrapper">
+                    <div class="img1"></div>
+                    <h2>NVIDIA GeForce RTX 3060</h2>
+                    <p class="price">$399.99</p>
+                    <p class="availability_no">Not available</p>
+                    <button>BUY</button>
+                    <ul class="properties">
+                        <li>Model: RTX 3060</li>
+                        <li>Core frequency: 1800 МГц</li>
+                        <li>Memory: 12 ГБ GDDR6</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+       
+    </main>
+
+</body>
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">Next</a></li>
+    </ul>
+</nav>
+<br><br>
+<footer>
+    <p>Contact information: Phone: +380123456789</p>
+            <p>Privacy Policy</p>
+</footer>
+</html>
+

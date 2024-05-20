@@ -1,0 +1,30 @@
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .day {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .temperature {
+    font-size: 18px;
+  }
+  
+  .condition {
+    margin-top: 10px;
+  }
+  
